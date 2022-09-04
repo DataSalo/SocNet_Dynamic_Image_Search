@@ -1,3 +1,4 @@
+"""Useful utilities for scrapping VK data using Selenium"""
 import time
 import os
 import requests

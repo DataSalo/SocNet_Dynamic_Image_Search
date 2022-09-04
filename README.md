@@ -57,7 +57,8 @@ Identified 94 friends.
 Scraping friend-of-a-friend network
 Downloading images associated with the target and friends
 Computing and caching the downloaded image embeddings.
-Saving friend-of-a-friend network.```
+Saving friend-of-a-friend network.
+```
 
 ## Additional Information
 This section includes any additional information that you want to mention about the tool, including:

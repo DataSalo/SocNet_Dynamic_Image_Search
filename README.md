@@ -9,18 +9,18 @@ https://medium.com/@DataSalo
 This sections discusses the purpose and motivation for the tool, and how it addresses a tool need you've identified.
 
 ## Installation
-This section includes detailed instructions for installing the tool, including any terminal commands that need to be executed and dependencies that need to be installed. Instructions should be understandable by non-technical users (e.g. someone who knows how to open a terminal and run commands, but isn't necessarily a programmer), for example:
 
 1. Make sure you have Python version 3.8 or greater installed
 
 2. Download the tool's repository using the command:
 
-        git clone https://github.com/bellingcat/hackathon-submission-template.git
+        git clone https://github.com/DataSalo/SocNet_Dynamic_Image_Search.git
 
-3. Move to the tool's directory and install the tool
+3. Move to the tool's directory and install the necessary requirement
 
-        cd hackathon-submission-template
-        pip install .
+        cd SocNet_Dynamic_Image_Search
+        pip install -r requirements.txt
+4. For those users who also wish to carry out a Selenium driven friend-of-a-friend VK search, please follow the instructions [here](https://selenium-python.readthedocs.io/installation.html) for Selenium driver installation
 
 ## Usage
 This sections includes detailed instructions for using the tool. If the tool has a command-line interface, include common commands and arguments, and some examples of commands and a description of the expected output. If the tool has a graphical user interface or a browser interface, include screenshots and describe a common workflow.

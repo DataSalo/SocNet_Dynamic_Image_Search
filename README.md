@@ -61,7 +61,7 @@ Saving friend-of-a-friend network.
 ```
 
 ## Additional Information
-1.My choice for utilizing Cytoscape.js was partially driven by its ability to handle embedded images within nodes; as well as easy callbacks between graph interactions and html surrounding the network (which allowed me display enlarged photos / profile info with each click). Other, more sophisticated tools don't always allow for this level of interaction.
+1. My choice for utilizing Cytoscape.js was partially driven by its ability to handle embedded images within nodes; as well as easy callbacks between graph interactions and html surrounding the network (which allowed me display enlarged photos / profile info with each click). Other, more sophisticated tools don't always allow for this level of interaction.
 2. Right now, the visualization tool requires that the network of interest be cached and stored locally under a specific network id. This is because the associated images and searchable image embeddings must also be stored locally. Currently, the cached network id must be specified within the `cached_network_id.txt` config file prior to app launch. Eventually, I'd like to make the cached networks accessible directly from the app; so that the user can seamlessly switch between multiple cached networks of choice.
 3. Eventually, I'd like to split the VK friend-of-a-friend crawler into a separate repo. For those who are wondering why the crawler depends on something as cumbersome as Selenium, it is because it's much harder to crawl user-friends at scale using more streamlined tools like the Selenium API.
 4. Eventually, I'd like to expand the repertoire of crawlers to other social networks (including Twitter / Instagram) in order to better align with investigator use-cases. 

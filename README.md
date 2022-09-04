@@ -38,8 +38,9 @@ This sections discusses the purpose and motivation for the tool, and how it addr
 4. The script will proceed to identify all friends of the user and then obtain existing links between friends. It will also download all recent posted images associated with these users.
 5. The network will be cached locally. It will be assigned a network id associated with the specified VK account.
 6. Altering the id in the `cached_network_id.txt` file will ensure that this cached network gets displayed when we activate the Socnet Visualization App.
-7. 
+
 #### Example I/O
+```
 Enter VK id (example: 414930480):
 414930480
 
@@ -47,7 +48,7 @@ Enter VK email:
 ulyssesnycc@gmail.com
 
 Enter VK password:
-*******
+password123
 
 Scrapping central target
 https://vk.com/id414930480
@@ -56,7 +57,7 @@ Identified 94 friends.
 Scraping friend-of-a-friend network
 Downloading images associated with the target and friends
 Computing and caching the downloaded image embeddings.
-Saving friend-of-a-friend network.
+Saving friend-of-a-friend network.```
 
 ## Additional Information
 This section includes any additional information that you want to mention about the tool, including:

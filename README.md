@@ -1,6 +1,5 @@
-# SocNet_Dynamic_Image_Search
-Automatically identify and highlight targets (Russian soldiers, right-wing extremists etc) in visualized social networks
 # SocNet Dynamic Image Search
+Automatically identify and highlight targets (Russian soldiers, right-wing extremists etc) in visualized social networks
 
 ## Team Members
 UlyssesNYC

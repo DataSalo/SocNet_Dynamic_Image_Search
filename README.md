@@ -26,10 +26,10 @@ This sections discusses the purpose and motivation for the tool, and how it addr
 ### Socnet App Usage for Network Visualization with Dynamic Image Search
 1. Go to `SocNet_Dynamic_Image_Search/code` and run `python socnet_app.py`.
 2. Go to http://127.0.0.1:8050/ in your browser to display the precomputed network whose id is stored `cached_network_id.txt` (how to compute and cache new networks is dicussed later.
-3. The network is visualized but none of the people nodes are labeled. Run a an image search on the upper-left corner of the screen for a photo category of interest such as "soldier", "guns", "confederate flag" or "[man in cowboy hat](https://www.bellingcat.com/news/2022/08/05/tracking-the-faceless-killers-who-mutilated-and-executed-a-ukrainian-pow/)".
-4. The nodes with match photographs are now filled in with those photos.
-5. Use the mouse to drag the network and zoom into the network cluster of interest.
-6. Click any node to display the associated person's name, photograph, and social media profile link.
+3. The network is visualized but none of the people nodes are labeled. Run a an image search on the upper-left corner of the screen for a photo category of interest such as "soldier", "guns", "confederate flag" or "[man in cowboy hat](https://www.bellingcat.com/news/2022/08/05/tracking-the-faceless-killers-who-mutilated-and-executed-a-ukrainian-pow/)". ![Screenshot](screenshots/demo1.png)
+5. The nodes with match photographs are now filled in with those photos.
+6. Use the mouse to drag the network and zoom into the network cluster of interest.
+7. Click any node to display the associated person's name, photograph, and social media profile link.
 
 ### Crawling a Friend-of-a-Friend Social Network for an Individual VK ID
 1. Go to `SocNet_Dynamic_Image_Search/code` and run `vk_foaf_crawler.py`.
